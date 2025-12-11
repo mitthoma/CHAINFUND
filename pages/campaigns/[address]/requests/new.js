@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Campaign from '../../../ethereum/campaign';
-import web3 from '../../../ethereum/web3';
+import Campaign from '../../../../ethereum/campaign';
+import web3 from '../../../../ethereum/web3';
 import Link from 'next/link';
 import Router from 'next/router';
-import Layout from '../../../components/Layout';
+import Layout from '../../../../components/Layout';
 
 class RequestNew extends Component {
 
@@ -189,7 +189,7 @@ class RequestNew extends Component {
               </h3>
               <ul className="space-y-2" style={{ color: '#808080', fontSize: '0.75rem' }}>
                 <li>• Contributors will vote to approve or reject this request</li>
-                <li>• Request needs majority approval (>50%) to be finalized</li>
+                <li>• Request needs majority approval (&gt;50%) to be finalized</li>
                 <li>• Once finalized, funds are automatically sent to the recipient</li>
                 <li>• All transactions are transparent and recorded on the blockchain</li>
               </ul>

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Layout from '../../../components/Layout';
+import Layout from '../../../../components/Layout';
 import Link from 'next/link';
-import Campaign from '../../../ethereum/campaign';
-import RequestRow from '../../../components/RequestRow';
+import Campaign from '../../../../ethereum/campaign';
+import RequestRow from '../../../../components/RequestRow';
 
 class RequestIndex extends Component {
 

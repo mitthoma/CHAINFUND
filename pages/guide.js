@@ -545,7 +545,7 @@ class GuidePage extends Component {
                           4. Your vote is recorded!
                         </p>
                         <p style={{ color: '#808080', fontSize: '0.875rem' }}>
-                          Once >50% approve, the manager can finalize and funds transfer automatically
+                          Once &gt;50% approve, the manager can finalize and funds transfer automatically
                         </p>
                       </div>
                     </div>
@@ -560,7 +560,7 @@ class GuidePage extends Component {
                     <li>✓ Only contributors who met the minimum can vote</li>
                     <li>✓ Each contributor gets ONE vote per request (not weighted by contribution amount)</li>
                     <li>✓ Votes are permanent and cannot be changed</li>
-                    <li>✓ Request needs >50% approval to be finalized</li>
+                    <li>✓ Request needs &gt;50% approval to be finalized</li>
                     <li>✓ Once finalized, funds transfer automatically</li>
                     <li>✓ All actions are permanently recorded on blockchain</li>
                   </ul>
