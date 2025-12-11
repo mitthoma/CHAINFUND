@@ -590,7 +590,7 @@ class GuidePage extends Component {
                       What if I don't agree with a spending request?
                     </h3>
                     <p style={{ color: '#808080' }}>
-                      Simply don't vote to approve it. If >50% of contributors don't approve, the request cannot be finalized and no funds are released.
+                      Simply don't vote to approve it. If &gt;50% of contributors don't approve, the request cannot be finalized and no funds are released.
                     </p>
                   </div>
 
