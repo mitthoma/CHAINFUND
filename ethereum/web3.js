@@ -1,15 +1,16 @@
-import Web3 from "web3";
+import { Web3 } from "web3";
 
 let web3;
 
 if (typeof window !== "undefined" && typeof window.ethereum !== "undefined") {
   // We are in the browser and metamask is running.
-  window.ethereum.request({ method: "eth_requestAccounts" });
+  // Don't automatically request accounts here - let the UI handle it
   web3 = new Web3(window.ethereum);
 } else {
   // We are on the server *OR* the user is not running metamask
+  // For local development, default to Ganache on localhost:8545
   const provider = new Web3.providers.HttpProvider(
-    "https://rinkeby.infura.io/v3/e7bce48080f3450eb434343ca46db663"
+    process.env.WEB3_PROVIDER_URL || "http://127.0.0.1:8545"
   );
   web3 = new Web3(provider);
 }
